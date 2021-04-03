@@ -58,3 +58,4 @@
         - 5042:80
       container_name: identityserver
       hostname: identityserver
+      restart: unless-stopped
